@@ -17,13 +17,15 @@ import {MatIconModule} from '@angular/material/icon';
 import { AccountDialogComponentComponent } from './account-dialog-component/account-dialog-component.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { RegisterDialogComponent } from './register-dialog/register-dialog.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginDialogComponent,
-    AccountDialogComponentComponent
+    AccountDialogComponentComponent,
+    RegisterDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -65,7 +67,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatPasswordStrengthModule,
   ],
   entryComponents: [
-    LoginDialogComponent
+    LoginDialogComponent,
+    RegisterDialogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

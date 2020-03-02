@@ -1,10 +1,9 @@
-
   <style>.mat-card[_ngcontent-ngx-auth-firebaseui-c11] {
     margin: 2rem;
 }
 </style>
 
-<ngx-auth-firebaseui appearance = "outline" (onSuccess)="printUser($event)" [guestEnabled]="false"
-                     (onError)="printError($event)" [providers]="[ providers.Google]">
-</ngx-auth-firebaseui>
+<ngx-auth-firebaseui-login appearance = "outline" (onSuccess)="printUser($event)"
+                     (onError)="printError($event)" [providers]="[]">
+</ngx-auth-firebaseui-login>
  

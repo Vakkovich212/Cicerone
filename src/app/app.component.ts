@@ -3,7 +3,7 @@ import { AuthProvider } from 'ngx-auth-firebaseui';
 import {MatDialogModule, MatDialog} from '@angular/material/dialog';
 import { LoginDialogComponent } from './login-dialog/login-dialog.component';
 import { AccountDialogComponentComponent } from './account-dialog-component/account-dialog-component.component';
-
+import { RegisterDialogComponent } from './register-dialog/register-dialog.component';
 
 
 @Component({
@@ -23,10 +23,11 @@ export class AppComponent {
   }
 
   openDialog2(): void {
-    const dialogRef = this.dialog.open(AccountDialogComponentComponent, {
+    const dialogRef = this.dialog.open(RegisterDialogComponent, {
       
     });
   }
+
   printUser(event) {
     console.log(event);
 }

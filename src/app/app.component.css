@@ -1,0 +1,25 @@
+.mat-card[_ngcontent-ngx-auth-firebaseui-c11] {
+    margin: 2rem;
+}
+
+.example-card {
+    border-radius: 4px;
+    padding-top: 32px !important;
+    padding-right: 32px !important;
+    padding-bottom: 24px !important;
+    padding-left: 32px !important;
+    width: 441px !important;
+    max-width: 400px;
+  }
+
+  .spacediv{
+    margin-top: 0px !important;
+    margin-right: auto !important;
+    margin-bottom: 0px !important;
+    margin-left: auto !important;
+    position: relative !important;
+    max-width: 1760px !important;
+    padding-right: 80px !important;
+    padding-left: 120px !important;
+    padding-top: 50px;
+  }

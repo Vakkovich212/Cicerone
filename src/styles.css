@@ -1,4 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
-
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+     margin: 0;
+     font-family: Roboto, "Helvetica Neue", sans-serif;
+     background-image: url("./assets/bg.jpg");
+ }
+.mat-card[_ngcontent-ngx-auth-firebaseui-c11] {
+    margin: 2rem;
+}
+
+.mat-toolbar {
+    background: transparent;
+}
+.mat-button {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    padding: 0 16px;
+    min-width: 64px;
+    text-decoration: none;
+    color: white;
+}
+ .flex-spacer{
+     flex-grow: 1;
+     -webkit-box-flex: 1;
+ }
